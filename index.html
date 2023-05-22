@@ -240,25 +240,25 @@
   <div id="duvidasSugestoes">
     <h1>Estamos aqui para ajudar, entre em contato!</h1>
 
-    <form >
+    <form action="" method="post" id="myForm" >
 
      
       <div class="contatoUsuario">
 
         <label for="inputNome">Nome Completo:</label>
-        <input type="text" id="inputNome">
+        <input type="text" id="inputNome" required>
       </div>
 
 
       <div class="contatoUsuario">
         <label for="inputEmail">E-mail:</label>
-        <input type="email" id="inputEmail" placeholder="nome@examplo.com">
+        <input type="email" id="inputEmail" placeholder="nome@examplo.com" required>
 
       </div>
 
       <div class="contatoUsuario">
         <label for="inputEstado">Estado:</label>
-        <select id="inputEstado">
+        <select id="inputEstado" required>
           <option selected>Escolher...</option>
           <option value="ac">Acre (AC)</option>
           <option value="al">Alagoas (AL)</option>
@@ -293,7 +293,7 @@
 
       <div class="contatoUsuario">
         <label for="inputCidade">Cidade:</label>
-        <input type="text" id="inputCidade">
+        <input type="text" id="inputCidade" required>
 
       </div>
 
@@ -305,7 +305,7 @@
 
       <div class="contatoUsuario">
 
-        <button type="submit" value="Enviar" onclick="enviarFormulario(event)">Enviar</button>
+        <button id="btnEnviar" type="submit" value="Enviar">Enviar</button>
        
 
       </div>
