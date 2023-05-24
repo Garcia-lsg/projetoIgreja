@@ -274,6 +274,15 @@ footer {
 
 }
 
+.link {
+  color: white;
+}
+
+
+.link:hover {
+  color: #ff4e5ad5;
+}
+
 #icons {
   margin-top: 10px;
   display: flex;
