@@ -30,7 +30,12 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  
 }
+
+
+
+
 
 header a {
   cursor: pointer;
@@ -75,6 +80,7 @@ button:hover {
   font-family: "Times New Roman", Times, serif, Tahoma, Geneva, Verdana,
     sans-serif;
   font-size: 30px;
+  margin-top: 50px;
 
 }
 
