@@ -35,8 +35,6 @@ header {
 
 
 
-
-
 header a {
   cursor: pointer;
   color: aliceblue;
@@ -70,6 +68,44 @@ button:hover {
   left: 0;
   
 }
+
+#containerInicio h1{
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicioSite {
+  border: solid 2px rgb(97, 97, 97);
+  margin-top: 10px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+   
+}
+
+#inicioSite  img{
+  width: 50%;
+  height: 100%;
+  float: left;
+  
+ 
+}
+
+
+
+#inicioSite p{
+
+  float: right;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+font-size: 40px;
+ 
+}
+
+
 
 #sobreIgreja {
   border: solid 2px rgb(97, 97, 97);
