@@ -44,7 +44,7 @@
     #sobreIgreja {
 
         margin-top: 30px;
-        height: 650px;
+        height: 800px;
 
     }
 
@@ -99,7 +99,7 @@
     }
 
     #ensino {
-        height: 750px;
+        height: 800px;
         margin-top: 30px;
     }
 
@@ -141,7 +141,7 @@
     .imgPastores {
         width: 350px;
         height: 120px;
-        margin-left: 0;
+        margin-left: 30px;
         margin-top: 60px;
 
     }
@@ -150,6 +150,7 @@
         font-size: 8px;
         margin-top: 30px;
         height: 50px;
+       gap: 1em;
     }
 
     #contatoPastores {
