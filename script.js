@@ -4,6 +4,7 @@
 
 // event.preventDefault();
 
+// }
 // const nome = document.querySelector("#inputNome").value
 // const email = document.querySelector("#inputEmail").value
 // const estado = document.querySelector("#inputEstado").value
@@ -15,16 +16,11 @@
 // })
 
 
-// let menu = document.querySelector('#menu-icon');
-// let navbar = document.querySelector('.navbar');
+window.sr = ScrollReveal({ reset: true});
 
-// menu.onclick = () => {
-//     menu.classList.toggle('bx-x');
-//     navbar.classList.toggle('active');
-// }
+sr.reveal('#inicioSite', { duration:2000});
+// sr.reveal('#cultos', { duration:2000});
+// sr.reveal('#backgroundEbd', { duration:2000});
+// sr.reveal('#pastores', { duration:2000});
 
-// window.onscroll = () => {
-//     menu.classList.remove('bx-x');
-//     navbar.classList.remove('active');
-// }
 

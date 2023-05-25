@@ -2,6 +2,8 @@
 /* Celular */
 @media (max-width:500px) {
 
+     
+        
 
     header {
         height: 40px;
@@ -20,6 +22,23 @@
         width: 5px;
         height: 10px;
 
+    }
+    #containerInicio{
+        width: 100%;
+    }
+
+    #containerInicio h2{
+        font-size: 15px;
+    }
+    #containerInicio p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #containerInicio img {
+        
+        height: 400px;
+        
     }
 
     #sobreIgreja {
@@ -107,6 +126,7 @@
     }
 
     #pastores {
+        width: 100%;
         height: 300px;
         margin-top: 30px;
         
@@ -119,9 +139,10 @@
     }
 
     .imgPastores {
+        width: 350px;
         height: 120px;
         margin-left: 0;
-        margin-top: 50px;
+        margin-top: 60px;
 
     }
 
@@ -224,8 +245,8 @@
 
 
 
-/* Tablet */
-@media (max-width:1300px) {
+
+ /* @media (max-width:1300px) {
 
 
     header {
@@ -443,4 +464,4 @@
  }
         
 
-}
+} */
